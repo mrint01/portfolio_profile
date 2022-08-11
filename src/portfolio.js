@@ -329,49 +329,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-   
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "",
-      subtitle: "",
-      slides_url: "",
-      event_url: ""
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [ ""  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -380,12 +337,6 @@ const contactInfo = {
   email_address: "sfarhatem7@yahoo.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
-};
 
 export {
   illustration,
@@ -399,9 +350,5 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails
 };
