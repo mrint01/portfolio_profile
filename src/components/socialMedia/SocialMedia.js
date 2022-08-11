@@ -1,6 +1,10 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import { BsGithub,BsLinkedin,BsFacebook,BsStackOverflow } from 'react-icons/bs';
+import { SiGmail } from 'react-icons/si';
+import { AiFillGitlab } from 'react-icons/ai';
+
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -15,7 +19,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github"><BsGithub style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}
@@ -27,7 +33,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"><BsLinkedin  style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}
@@ -39,7 +47,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <i className="fas fa-envelope"><SiGmail style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}
@@ -51,7 +61,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <i className="fab fa-gitlab"><AiFillGitlab style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}
@@ -63,7 +75,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-facebook-f"><BsFacebook style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}
@@ -111,7 +125,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <i className="fab fa-stack-overflow"><BsStackOverflow style={{
+                                          marginTop: "10px",
+                                          marginLeft: "-2px"}} /></i>
           <span></span>
         </a>
       ) : null}

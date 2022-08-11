@@ -2,8 +2,6 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
@@ -22,7 +20,10 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                 style={{
+                  fontSize: "50px",
+                  lineHeight: "1.1",
+                  color: "gray"  }}
               >
                 {" "}
                 {greeting.title}{" "}
@@ -50,13 +51,16 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          <div style={{textAlign: "-webkit-center"}} className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+               <img
+               alt="man sitting on table"
+               src={require("../../assets/images/bg4.png")}
+             ></img>
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/bg4.png")}
               ></img>
             )}
           </div>
