@@ -62,7 +62,8 @@ export default function Projects() {
                     textAlign: "center",
                     border: "2px solid #ababab",
                     borderRadius: "25px",
-                    padding: "50px",
+                    paddingTop: "20px",
+                    paddingBottom: "20px"
               }}>UNDER MAINTENANCE</h1>
 
           </div>

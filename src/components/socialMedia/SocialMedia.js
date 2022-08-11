@@ -19,7 +19,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"><BsGithub style={{
+          <i><BsGithub style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>
@@ -33,7 +33,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"><BsLinkedin  style={{
+          <i><BsLinkedin  style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>
@@ -47,7 +47,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"><SiGmail style={{
+          <i><SiGmail style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>
@@ -61,7 +61,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"><AiFillGitlab style={{
+          <i><AiFillGitlab style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>
@@ -75,7 +75,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook-f"><BsFacebook style={{
+          <i><BsFacebook style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>
@@ -125,7 +125,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"><BsStackOverflow style={{
+          <i><BsStackOverflow style={{
                                           marginTop: "10px",
                                           marginLeft: "-2px"}} /></i>
           <span></span>

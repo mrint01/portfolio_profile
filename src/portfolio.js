@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import "./assets/fontawesome-free-6.1.2-web/css/all.css"
 // Splash Screen
 
 const splashScreen = {
@@ -77,16 +77,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "expressjs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "ionic",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fa-solid fa-circle-notch"
     },
     {
       skillName: "symfony",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-symfony"
     },
     {
       skillName: "sql-database",
@@ -102,11 +98,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "mongodb",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fa-solid fa-feather-pointed"
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "python",
