@@ -17,7 +17,15 @@ const ToggleSwitch = () => {
           setChecked(!isChecked);
         }}
       />
-      <span className="slider round"></span>
+      <span><img style={{
+        position: "absolute",
+        marginLeft: "-17px",
+        width: "20px"
+      }} alt="check" src={isChecked ? require("../../assets/images/sun.svg"): require("../../assets/images/moon.svg")}>
+
+      </img>
+
+      </span>
     </label>
   );
 };

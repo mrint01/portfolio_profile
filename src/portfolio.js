@@ -192,7 +192,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Inter",
+      role: "Software Engineer Intern",
       company: "Wimobi",
       companylogo: require("./assets/images/wimobi_logo.png"),
       date: "June 2021 – August 2021",
@@ -210,7 +210,7 @@ const workExperiences = {
                     "Creation of new custom modules"]
     },
     {
-      role: "Software Engineer Inter",
+      role: "Software Engineer Intern",
       company: "Tek-up",
       companylogo: require("./assets/images/tekup_logo.png"),
       date: "July 2020 – August 2020",
@@ -305,7 +305,7 @@ const achievementSection = {
     {
       title: "Java 8 SoloLearn",
       subtitle:
-        "I have studied basic java 8 , and done many project using javaFx , java swift as a frameworks",
+        "I have studied basic java 8 , and done many project using javaFx , java swing as a frameworks",
       image: require("./assets/images/img_solo.jpg"),
       footerLink: [
       

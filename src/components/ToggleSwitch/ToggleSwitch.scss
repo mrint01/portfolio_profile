@@ -15,6 +15,7 @@ input {
 .slider {
   position: absolute;
   cursor: pointer;
+  display: none;
   top: 0;
   left: 0;
   right: 0;
@@ -28,6 +29,7 @@ input {
   position: absolute;
   content: "";
   height: 26px;
+  display: none;
   width: 28px;
   left: 0;
   bottom: 0;
@@ -53,6 +55,7 @@ input:checked + .slider::before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  display: none;
 }
 
 .slider.round::before {
