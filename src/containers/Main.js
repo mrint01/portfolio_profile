@@ -44,6 +44,7 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
+        
             <Header />
             <Greeting />
             <Skills />
